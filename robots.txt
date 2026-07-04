@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+sitemap: https://saramdigitech.com/sitemapindex.xml
+sitemap: https://saramdigitech.com/mds.php?sitemapindex.xml
+sitemap: https://saramdigitech.com/saiga/saiga.php?sitemapindex.xml
