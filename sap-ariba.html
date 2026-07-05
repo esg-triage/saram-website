@@ -4,221 +4,280 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>SAP Ariba Consulting — Saram Digitech</title>
-  <meta name="description" content="End-to-end SAP Ariba implementation, support, advisory, and sourcing services. Saram Digitech helps enterprises transform procurement with SAP Ariba.">
+  <meta name="description" content="End-to-end SAP Ariba implementation, support, advisory, and sourcing services. Saram Digitech — Source-to-Pay transformation by practitioners.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Inter:wght@400;500;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
-<header class="nav">
-  <div class="wrap">
-    <div class="row">
-      <a href="index.html" class="brand">Saram<b>.</b>Digitech</a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="sap-ariba.html" class="active">SAP Ariba</a>
-        <a href="esg.html">ESG Consulting</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <button class="navtoggle" id="tog" aria-label="Menu">&#9776;</button>
-    </div>
-    <div id="mnav">
+<!-- NAV -->
+<header class="site-nav">
+  <div class="inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/logo.png" alt="Saram Digitech">
+    </a>
+    <nav class="desk-nav">
       <a href="index.html">Home</a>
-      <a href="sap-ariba.html" class="active">SAP Ariba</a>
-      <a href="esg.html">ESG Consulting</a>
+      <a href="index.html#about">About</a>
+      <div class="nav-dd">
+        <a href="index.html#divisions" style="display:inline-flex;align-items:center;gap:5px;">Divisions
+          <svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4 L6 8 L10 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <div class="nav-dd-panel">
+          <div class="nav-dd-inner">
+            <a href="sap-ariba.html" class="nav-dd-item">
+              <span class="nav-dd-dot" style="background:var(--ariba2)"></span>
+              <span><b>SAP Ariba Consulting</b><span>Source-to-Pay transformation</span></span>
+            </a>
+            <a href="esg.html" class="nav-dd-item">
+              <span class="nav-dd-dot" style="background:var(--esg2)"></span>
+              <span><b>ESG Consulting</b><span>Strategy &middot; Energy &middot; GHG verification</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="index.html#engagement">Engagement Model</a>
       <a href="contact.html">Contact</a>
-    </div>
+      <a href="contact.html" class="talk-btn">Talk to us</a>
+    </nav>
+    <button class="mob-btn" id="mob-tog" aria-label="Menu">
+      <svg width="20" height="20" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6 H19 M3 11 H19 M3 16 H19" stroke="#232133" stroke-width="1.7" stroke-linecap="round"/></svg>
+    </button>
   </div>
 </header>
 
-<!-- Hero -->
-<section class="hero">
-  <div class="wrap">
-    <p class="eyebrow"><span></span>Procurement Technology</p>
-    <h1>SAP Ariba<br><span class="grad">Implementation &amp; Advisory</span></h1>
-    <p class="sub">From initial scoping through go-live and beyond &mdash; we deliver SAP Ariba programmes that drive measurable procurement efficiency and supplier collaboration.</p>
-    <div class="cta">
-      <a href="contact.html" class="btn primary">Discuss your project</a>
-      <a href="#services" class="btn">Our services</a>
+<!-- MOBILE MENU -->
+<div class="mob-nav" id="mob-menu">
+  <a href="index.html">Home</a>
+  <a href="index.html#about">About</a>
+  <a href="sap-ariba.html" class="ariba">SAP Ariba Consulting</a>
+  <a href="esg.html" class="esg">ESG Consulting</a>
+  <a href="index.html#engagement">Engagement Model</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- HERO -->
+<section style="position:relative;overflow:hidden">
+  <div style="position:absolute;top:-20%;right:-10%;width:55vw;height:55vw;max-width:760px;max-height:760px;border-radius:50%;background:radial-gradient(circle at 38% 38%,rgba(94,96,201,0.22),rgba(63,61,158,0.12) 48%,rgba(245,246,248,0) 72%);filter:blur(6px);animation:heroGlow 18s ease-in-out infinite;pointer-events:none"></div>
+  <div class="wrap" style="padding-top:clamp(60px,9vh,108px);padding-bottom:clamp(44px,6vh,64px);position:relative">
+    <div data-reveal style="display:inline-flex;align-items:center;gap:10px;font-family:'Space Mono',monospace;font-size:0.74rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--ariba)">
+      <span style="width:22px;height:1px;background:var(--ariba)"></span>Division 01 &mdash; SAP Ariba
     </div>
-    <div class="tags">
-      <div><b>Modules</b><span>Sourcing &middot; Procurement &middot; Contracts</span></div>
-      <div><b>Delivery</b><span>Implementation &amp; Managed Support</span></div>
-      <div><b>Platform</b><span>SAP Business Network</span></div>
+    <h1 data-reveal style="margin:22px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-0.028em;line-height:1.02;font-size:clamp(2.5rem,6.2vw,4.8rem);max-width:16ch">
+      Source-to-Pay, implemented by people who have <span style="color:var(--ariba)">run it.</span>
+    </h1>
+    <p data-reveal style="margin:26px 0 0;font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--ink2);max-width:58ch;line-height:1.62">We advise and implement across the full SAP Ariba suite &mdash; from strategic sourcing and contracts to guided buying, invoicing and payment. Independent, hands-on expertise with no reseller incentives.</p>
+    <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap;margin-top:34px">
+      <a href="contact.html" class="btn-ariba">Discuss your project</a>
+      <a href="#services" class="btn-outline">Our services</a>
     </div>
   </div>
 </section>
 
-<!-- Services -->
-<section class="pad" id="services">
+<!-- SAP ARIBA SERVICES -->
+<section id="services" class="section" style="background:var(--paper);border-top:1px solid var(--line);scroll-margin-top:76px">
   <div class="wrap">
-    <div class="lead">
-      <p class="eyebrow ariba"><span></span>Services</p>
-      <h2>What we deliver</h2>
-      <p>Our SAP Ariba practice covers the full lifecycle &mdash; from assessment and design through deployment, integration, and long-term operations.</p>
-    </div>
-
-    <!-- Implementation -->
-    <div style="margin-top:40px;">
-      <h3 style="color:var(--ariba);font-size:1.1rem;font-family:'Space Mono',monospace;font-weight:700;text-transform:uppercase;letter-spacing:.06em;">01 &mdash; Implementation</h3>
-      <p style="margin-top:8px;margin-bottom:20px;">End-to-end deployment of SAP Ariba modules tailored to your procurement landscape.</p>
-      <div class="dgrid">
-        <div class="dcard">
-          <div class="n">A</div>
-          <div><b>Sourcing</b><span>RFx, auctions, and category management configured to your sourcing strategy and approval hierarchies.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">B</div>
-          <div><b>Procurement</b><span>Purchase requisitions, catalogue management, and guided buying aligned to your policies.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">C</div>
-          <div><b>Contract Management</b><span>Contract workspaces, clause libraries, and obligation tracking integrated with your ERP.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">D</div>
-          <div><b>Supplier Lifecycle &amp; Performance</b><span>Onboarding, qualification, segmentation, and performance scorecards for your supplier network.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">E</div>
-          <div><b>Invoice Management</b><span>Automated three-way match, exception handling, and payment analytics.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">F</div>
-          <div><b>Spend Analysis &amp; Reporting</b><span>Taxonomy design, data cleansing, and dashboard rollout using SAP Ariba Analytics.</span></div>
-        </div>
+    <div class="divhead">
+      <div data-reveal>
+        <div class="eyebrow ariba"><span class="line"></span>Division 01 &mdash; SAP Ariba</div>
+        <h2 style="margin:18px 0 0;font-size:clamp(2rem,3.6vw,2.85rem)">Source-to-Pay, implemented by people who have run it.</h2>
+        <p style="margin:18px 0 0;font-style:italic;font-size:1.3rem;color:var(--ariba);line-height:1.4">Essence to your Source-to-Pay transformation.</p>
+      </div>
+      <div data-reveal style="padding-top:6px">
+        <p style="margin:0;font-size:1.1rem;color:var(--ink2);line-height:1.66">We advise and implement across the full SAP Ariba suite &mdash; from strategic sourcing and contracts to guided buying, invoicing and payment. Whether you are deploying for the first time, stabilising a live environment, or questioning the commercials of your licensing, we bring independent, hands-on expertise.</p>
       </div>
     </div>
 
-    <!-- Support -->
-    <div style="margin-top:52px;">
-      <h3 style="color:var(--ariba);font-size:1.1rem;font-family:'Space Mono',monospace;font-weight:700;text-transform:uppercase;letter-spacing:.06em;">02 &mdash; Managed Support</h3>
-      <p style="margin-top:8px;margin-bottom:20px;">Post-go-live operations, administration, and continuous improvement so your team can focus on outcomes.</p>
-      <div class="dgrid">
-        <div class="dcard">
-          <div class="n">&#8226;</div>
-          <div><b>Application Support &amp; Administration</b><span>Incident resolution, user management, configuration updates, and release impact assessment.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">&#8226;</div>
-          <div><b>Integration Maintenance</b><span>SAP ERP/S4HANA, third-party ERP, and API-based connectivity monitoring and fixes.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">&#8226;</div>
-          <div><b>User Training &amp; Enablement</b><span>Role-based training, change management support, and documentation for new hires and process changes.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">&#8226;</div>
-          <div><b>Health Checks &amp; Optimisation</b><span>Periodic reviews to identify adoption gaps, configuration drift, and improvement opportunities.</span></div>
-        </div>
+    <div data-reveal class="svc-grid">
+      <div class="svc-cell ariba">
+        <span class="n">01</span>
+        <h4>Source-to-Contract (S2C)</h4>
+        <p>Strategic sourcing, RFx, auctions, contracts and supplier lifecycle configured to your category strategy and approval hierarchies.</p>
       </div>
-    </div>
-
-    <!-- Advisory -->
-    <div style="margin-top:52px;">
-      <h3 style="color:var(--ariba);font-size:1.1rem;font-family:'Space Mono',monospace;font-weight:700;text-transform:uppercase;letter-spacing:.06em;">03 &mdash; Advisory &amp; Strategy</h3>
-      <p style="margin-top:8px;margin-bottom:20px;">Independent guidance to help you make the right decisions before, during, and after your SAP Ariba journey.</p>
-      <div class="dgrid">
-        <div class="dcard">
-          <div class="n">&#8226;</div>
-          <div><b>Procurement Transformation Roadmap</b><span>Current-state assessment, benchmarking, and a phased transformation roadmap with business case.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">&#8226;</div>
-          <div><b>SAP Ariba Upgrade &amp; Migration</b><span>Migration from legacy Ariba On-Premise or other procurement tools to SAP Ariba Cloud.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">&#8226;</div>
-          <div><b>Process Design</b><span>Procurement operating model design, approval workflows, and policy codification.</span></div>
-        </div>
-        <div class="dcard">
-          <div class="n">&#8226;</div>
-          <div><b>Vendor Selection Support</b><span>RFP preparation, vendor evaluation, and negotiation support for complementary procurement tools.</span></div>
-        </div>
+      <div class="svc-cell ariba">
+        <span class="n">02</span>
+        <h4>Procure-to-Pay (P2P)</h4>
+        <p>Guided buying, catalogue management, requisitioning, invoicing and AP automation across Ariba and Business Network.</p>
+      </div>
+      <div class="svc-cell ariba">
+        <span class="n">03</span>
+        <h4>Support &amp; Optimisation</h4>
+        <p>Post-go-live administration, release management, integration maintenance and continuous improvement of your live Ariba estate.</p>
+      </div>
+      <div class="svc-cell ariba">
+        <span class="n">04</span>
+        <h4>Commercial &amp; Licensing Advisory</h4>
+        <p>Independent guidance on licensing, scope and total cost of ownership &mdash; no reseller incentives, just objective advice.</p>
+      </div>
+      <div class="svc-cell ariba">
+        <span class="n">05</span>
+        <h4>Spend Analysis &amp; Reporting</h4>
+        <p>Taxonomy design, data cleansing and dashboard rollout using SAP Ariba Analytics to surface savings and compliance insights.</p>
+      </div>
+      <div class="svc-cell ariba">
+        <span class="n">06</span>
+        <h4>Supplier Lifecycle &amp; Performance</h4>
+        <p>Onboarding, qualification, segmentation and performance scorecards for your supplier network on SAP Business Network.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Why Ariba -->
-<section class="pad darkband">
-  <div class="wrap">
-    <div class="lead">
-      <p class="eyebrow ariba"><span></span>Why SAP Ariba</p>
-      <h2>The market-leading procurement network</h2>
-      <p>SAP Ariba connects your organisation to the world&rsquo;s largest business network &mdash; over 5 million suppliers &mdash; giving you unmatched visibility, efficiency, and compliance across the source-to-pay cycle.</p>
+<!-- BRIDGE (dark) -->
+<section class="bridge">
+  <div class="bridge-bg"></div>
+  <div class="wrap" style="position:relative">
+    <div class="bridge-grid">
+      <div data-reveal>
+        <div class="eyebrow esg2"><span class="line"></span>Why SAP Ariba</div>
+        <h2 style="margin:18px 0 0;font-size:clamp(2rem,3.8vw,3rem);color:#fff">The <span class="grad-text">market-leading</span> procurement network.</h2>
+        <p style="margin:20px 0 0;font-size:1.12rem;color:rgba(245,246,248,0.72);line-height:1.64">SAP Ariba connects your organisation to the world&rsquo;s largest business network &mdash; over 5 million suppliers &mdash; giving you unmatched visibility, efficiency and compliance across the source-to-pay cycle.</p>
+        <div style="margin-top:28px">
+          <a href="contact.html" class="btn-ariba">Start a conversation</a>
+        </div>
+      </div>
+      <div data-reveal style="display:flex;flex-direction:column;gap:14px">
+        <div class="bridge-point">
+          <span class="n">01</span>
+          <div><b>Unified Source-to-Pay</b><span>One platform for sourcing, contracts, procurement and invoicing &mdash; eliminating data silos and manual reconciliation.</span></div>
+        </div>
+        <div class="bridge-point">
+          <span class="n">02</span>
+          <div><b>5M+ Supplier Network</b><span>Connect and transact with pre-onboarded suppliers globally through SAP Business Network.</span></div>
+        </div>
+        <div class="bridge-point">
+          <span class="n">03</span>
+          <div><b>Embedded Compliance</b><span>Built-in approval workflows, audit trails and policy controls reduce maverick spend and regulatory risk.</span></div>
+        </div>
+        <div class="bridge-point">
+          <span class="n">04</span>
+          <div><b>S/4HANA Integration</b><span>Native integration with SAP ERP and S/4HANA ensures real-time data synchronisation without custom middleware.</span></div>
+        </div>
+      </div>
     </div>
-    <div class="dgrid" style="margin-top:32px;">
-      <div class="dcard">
-        <div class="n">01</div>
-        <div><b>Unified Source-to-Pay</b><span>One platform for sourcing, contracts, procurement, and invoicing &mdash; eliminating data silos and manual reconciliation.</span></div>
-      </div>
-      <div class="dcard">
-        <div class="n">02</div>
-        <div><b>5M+ Supplier Network</b><span>Connect and transact with pre-onboarded suppliers globally through SAP Business Network.</span></div>
-      </div>
-      <div class="dcard">
-        <div class="n">03</div>
-        <div><b>Embedded Compliance</b><span>Built-in approval workflows, audit trails, and policy controls reduce maverick spend and regulatory risk.</span></div>
-      </div>
-      <div class="dcard">
-        <div class="n">04</div>
-        <div><b>S/4HANA Integration</b><span>Native integration with SAP ERP and S/4HANA ensures real-time data synchronisation without custom middleware.</span></div>
+  </div>
+</section>
+
+<!-- ENGAGEMENT MODEL (ariba-specific) -->
+<section id="engagement" class="section" style="background:var(--paper);border-top:1px solid var(--line);scroll-margin-top:76px">
+  <div class="wrap">
+    <div data-reveal style="max-width:62ch">
+      <div class="eyebrow ariba"><span class="line"></span>Engagement Model &mdash; SAP Ariba</div>
+      <h2 style="margin:18px 0 0;font-size:clamp(2.1rem,4vw,3.1rem)">Three tiers. <span class="grad-text">One clear path.</span></h2>
+      <p style="margin:20px 0 0;font-size:1.15rem;color:var(--ink2);line-height:1.64">Every SAP Ariba engagement moves through the same three deliberate tiers &mdash; so you always know where you are and what comes next.</p>
+    </div>
+    <div data-reveal style="margin-top:50px">
+      <div style="height:2px;background:linear-gradient(90deg,var(--ariba),var(--ariba2));border-radius:2px;margin-bottom:30px"></div>
+      <div class="step-row tier3" style="margin-top:0">
+        <div class="tier-card ariba">
+          <div style="display:flex;align-items:center;gap:11px">
+            <span class="tier-num ariba">1</span>
+            <span style="font-family:'Space Mono',monospace;font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink2)">Step 1</span>
+          </div>
+          <h4>Initial Assessment</h4>
+          <p class="sub">Scoping &amp; readiness snapshot</p>
+          <p>Source-to-Pay maturity scan, stakeholder mapping, and a licensing &amp; scope review.</p>
+        </div>
+        <div class="tier-card ariba">
+          <div style="display:flex;align-items:center;gap:11px">
+            <span class="tier-num ariba">2</span>
+            <span style="font-family:'Space Mono',monospace;font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink2)">Step 2</span>
+          </div>
+          <h4>Baseline Audit</h4>
+          <p class="sub">Deep diagnostic &amp; gap analysis</p>
+          <p>Process and configuration diagnostic across S2C and P2P, with integration and data-quality gaps surfaced.</p>
+        </div>
+        <div class="tier-card ariba">
+          <div style="display:flex;align-items:center;gap:11px">
+            <span class="tier-num ariba">3</span>
+            <span style="font-family:'Space Mono',monospace;font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink2)">Step 3</span>
+          </div>
+          <h4>Advisory Consulting</h4>
+          <p class="sub">Ongoing implementation &amp; guidance</p>
+          <p>Hands-on implementation, commercial advisory, and continuous optimisation.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CTA -->
-<section class="pad tint">
-  <div class="wrap" style="text-align:center;">
-    <p class="eyebrow" style="justify-content:center;margin-bottom:16px;"><span></span>Let&rsquo;s talk</p>
-    <h2>Start your SAP Ariba journey</h2>
-    <p style="max-width:46ch;margin:12px auto 0;">Whether you&rsquo;re evaluating SAP Ariba for the first time or looking to improve an existing deployment, we&rsquo;re here to help.</p>
-    <div class="cta" style="justify-content:center;margin-top:28px;">
-      <a href="contact.html" class="btn ariba">Get in touch</a>
-      <a href="esg.html" class="btn">Also see ESG Consulting</a>
+<!-- CONTACT CTA -->
+<section class="section-md" style="background:var(--paper2);border-top:1px solid var(--line)">
+  <div class="wrap" style="text-align:center">
+    <div class="eyebrow ariba" style="justify-content:center;margin-bottom:16px"><span class="line"></span>Get started</div>
+    <h2 style="font-size:clamp(1.9rem,3.5vw,2.8rem)">Start your SAP Ariba journey</h2>
+    <p style="max-width:46ch;margin:14px auto 0;color:var(--ink2);font-size:1.08rem;line-height:1.64">Whether you&rsquo;re evaluating SAP Ariba for the first time or improving an existing deployment, we&rsquo;re here to help.</p>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:32px">
+      <a href="contact.html" class="btn-ariba">Get in touch</a>
+      <a href="esg.html" class="btn-outline">Also see ESG Consulting</a>
     </div>
   </div>
 </section>
 
-<footer class="ft">
+<!-- FOOTER -->
+<footer class="site-footer">
   <div class="wrap">
-    <div class="top">
+    <div class="foot-grid">
       <div>
-        <a href="index.html" class="brand">Saram<b>.</b>Digitech</a>
-        <p>End-to-end SAP Ariba implementation and ESG consulting for enterprises navigating procurement transformation and sustainability compliance.</p>
+        <div class="logo"><img src="assets/logo.png" alt="Saram Digitech"></div>
+        <p>Independent, consultant-led advisory for SAP Ariba and Corporate ESG. Headquartered in India, serving global clients.</p>
       </div>
-      <nav>
-        <div>
-          <b>Services</b>
-          <a href="sap-ariba.html">SAP Ariba</a>
-          <a href="esg.html">ESG Consulting</a>
-        </div>
-        <div>
-          <b>Company</b>
-          <a href="index.html#about">About</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </nav>
+      <div class="ft-col">
+        <h5>Divisions</h5>
+        <ul>
+          <li><a href="sap-ariba.html">SAP Ariba Consulting</a></li>
+          <li><a href="esg.html">ESG Consulting</a></li>
+          <li><a href="index.html#engagement">Engagement Model</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="esg.html#training">Training Academy</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h5>Get in touch</h5>
+        <ul>
+          <li><a href="tel:+919600126147">+91 96001 26147</a></li>
+          <li><a href="mailto:info@saramdigitech.com">info@saramdigitech.com</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="copy">
+    <div class="ft-copy">
       <span>&copy; 2025 Saram Digitech. All rights reserved.</span>
-      <span>info@saramdigitech.com</span>
+      <span>India-facing advisory &middot; SAP Ariba &middot; Corporate ESG</span>
     </div>
   </div>
 </footer>
 
 <script>
-  const tog = document.getElementById('tog');
-  const mn  = document.getElementById('mnav');
+  const tog = document.getElementById('mob-tog');
+  const menu = document.getElementById('mob-menu');
   tog.addEventListener('click', () => {
-    const open = mn.style.display === 'flex';
-    mn.style.display = open ? 'none' : 'flex';
-    tog.innerHTML = open ? '&#9776;' : '&#10005;';
+    const open = menu.style.display === 'flex';
+    menu.style.display = open ? 'none' : 'flex';
   });
+  (function () {
+    const root = document.body;
+    root.classList.add('reveal-on');
+    const reveal = () => {
+      document.querySelectorAll('[data-reveal]:not(.in)').forEach(el => {
+        const r = el.getBoundingClientRect();
+        if (r.top < (window.innerHeight || 800) * 0.9 && r.bottom > 0) el.classList.add('in');
+      });
+    };
+    reveal();
+    window.addEventListener('scroll', reveal, { passive: true });
+    window.addEventListener('resize', reveal, { passive: true });
+    Array.from(document.querySelectorAll('[data-reveal]')).forEach((el, i) =>
+      setTimeout(() => el.classList.add('in'), 140 + i * 55));
+    setTimeout(() => root.classList.remove('reveal-on'), 2200);
+  })();
 </script>
 </body>
 </html>
