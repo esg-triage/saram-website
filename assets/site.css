@@ -234,9 +234,11 @@ h1, h2, h3, h4 {
 .pcard.esg   .tagline { color: var(--esg); }
 .pcard p { margin: 14px 0 0; color: var(--ink2); font-size: 0.98rem; }
 .pcard .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   font-size: 0.8rem; font-weight: 600;
   padding: 6px 12px; border-radius: 100px;
+  background: rgba(35,33,51,0.06); color: var(--ink);
 }
 .chip.ariba { color: var(--ariba); background: rgba(63,61,158,0.08); }
 .chip.esg   { color: var(--esg);   background: rgba(15,138,147,0.09); }
@@ -336,6 +338,7 @@ h1, h2, h3, h4 {
   font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--ink2);
 }
+.bridge .step .sub { color: var(--esg2); }
 .step p { margin: 14px 0 0; color: var(--ink2); font-size: 1rem; line-height: 1.6; }
 
 /* Engagement tiers (within ESG/Ariba pages) */
@@ -358,6 +361,18 @@ h1, h2, h3, h4 {
 .tier-card p { margin: 11px 0 0; color: var(--ink2); font-size: 0.95rem; }
 
 /* ── About quote ────────────────────────────────────────────── */
+.quote {
+  margin: 0; padding: 24px 28px;
+  background: #fff; border: 1px solid var(--line);
+  border-left: 3px solid var(--esg2); border-radius: 14px;
+  font-style: italic; font-size: 1.12rem; color: var(--ink); line-height: 1.6;
+}
+.qby {
+  margin: 12px 0 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.74rem; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--esg);
+}
 .quote-box {
   background: #fff; border: 1px solid var(--line);
   border-left: 3px solid var(--esg2); border-radius: 14px;
