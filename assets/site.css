@@ -358,6 +358,63 @@ h1, h2, h3, h4 {
   color: rgba(245,246,248,0.5); font-size: 0.86rem;
 }
 
+/* ── Framework / standards bar ─────────────────────────────── */
+.frame-bar { background: #fff; border-bottom: 1px solid var(--line); padding: 13px 0; }
+.frame-bar .wrap { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.frame-lbl {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink2); white-space: nowrap;
+  padding-right: 10px; border-right: 1px solid var(--line); margin-right: 2px;
+}
+.fchip {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 0.77rem; font-weight: 600;
+  padding: 4px 10px; border-radius: 100px;
+  background: rgba(35,33,51,0.05); color: var(--ink);
+}
+.fchip svg { width: 13px; height: 13px; color: var(--esg); flex: none; }
+
+/* ── Practice card icon ─────────────────────────────────────── */
+.picon {
+  display: flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; border-radius: 14px; margin-bottom: 16px;
+}
+.pcard.ariba .picon { background: rgba(63,61,158,0.1); color: var(--ariba); }
+.pcard.esg   .picon { background: rgba(15,138,147,0.1); color: var(--esg); }
+.picon svg { width: 22px; height: 22px; }
+
+/* ── Engagement step icon ───────────────────────────────────── */
+.sico {
+  display: flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; border-radius: 14px;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+  color: var(--esg2); margin-bottom: 16px;
+}
+.sico svg { width: 21px; height: 21px; }
+
+/* ── Service cell icon (SAP Ariba) ──────────────────────────── */
+.svc-icon {
+  display: flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 11px;
+  background: rgba(63,61,158,0.08); color: var(--ariba); margin-bottom: 14px;
+}
+.svc-icon svg { width: 20px; height: 20px; }
+
+/* ── Bridge-point icon (ESG) ────────────────────────────────── */
+.bp-icon {
+  display: flex; align-items: center; justify-content: center;
+  width: 38px; height: 38px; border-radius: 10px; flex: none;
+  background: rgba(35,168,182,0.15); color: var(--esg2);
+}
+.bp-icon svg { width: 19px; height: 19px; }
+
+/* ── Prose (privacy page) ───────────────────────────────────── */
+.prose h2 { font-size: 1.3rem; margin: 36px 0 8px; }
+.prose p  { margin: 10px 0; color: var(--ink2); line-height: 1.68; }
+.prose a  { color: var(--esg); font-weight: 600; text-decoration: none; }
+.prose a:hover { text-decoration: underline; }
+
 /* ── Two-col layout ─────────────────────────────────────────── */
 .divhead { display: grid; grid-template-columns: 0.92fr 1.08fr; gap: 54px; align-items: start; }
 
