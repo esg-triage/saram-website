@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Saram Digitech — SAP Ariba &amp; ESG Consulting</title>
-  <meta name="description" content="Saram Digitech is an independent, consultant-led firm with two specialist practices — SAP Ariba and Corporate ESG. Each run by practitioners.">
+  <title>Saram Digitech | SAP Ariba &amp; Corporate ESG Consulting</title>
+  <meta name="description" content="Independent, consultant led advisory: SAP Ariba Source to Pay transformation and Corporate ESG, energy and carbon. India and Europe.">
+  <link rel="canonical" href="https://saramdigitech.com/">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saramdigitech.com/">
+  <meta property="og:title" content="Saram Digitech | SAP Ariba &amp; Corporate ESG Consulting">
+  <meta property="og:description" content="Independent, consultant led advisory: SAP Ariba Source to Pay transformation and Corporate ESG, energy and carbon. India and Europe.">
+  <meta property="og:image" content="https://saramdigitech.com/assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -20,200 +28,156 @@
     </a>
     <nav class="desk-nav">
       <a href="index.html" class="active">Home</a>
-      <a href="index.html#about">About</a>
-      <div class="nav-dd">
-        <a href="index.html#divisions" style="display:inline-flex;align-items:center;gap:5px;">Divisions
-          <svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4 L6 8 L10 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-        <div class="nav-dd-panel">
-          <div class="nav-dd-inner">
-            <a href="sap-ariba.html" class="nav-dd-item">
-              <span class="nav-dd-dot" style="background:var(--ariba2)"></span>
-              <span><b>SAP Ariba Consulting</b><span>Source-to-Pay transformation</span></span>
-            </a>
-            <a href="esg.html" class="nav-dd-item">
-              <span class="nav-dd-dot" style="background:var(--esg2)"></span>
-              <span><b>ESG Consulting</b><span>Strategy &middot; Energy &middot; GHG verification</span></span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <a href="index.html#engagement">Engagement Model</a>
-      <a href="contact.html" class="talk-btn">Talk to us</a>
+      <a href="sap-ariba/">SAP Ariba</a>
+      <a href="esg/">ESG Consulting</a>
     </nav>
-    <button class="mob-btn" id="mob-tog" aria-label="Menu">
-      <svg width="20" height="20" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6 H19 M3 11 H19 M3 16 H19" stroke="#232133" stroke-width="1.7" stroke-linecap="round"/></svg>
-    </button>
+    <div class="nav-right">
+      <a href="contact/" class="talk-btn">Talk to us</a>
+      <button class="mob-btn" id="mob-tog" aria-label="Menu">
+        <svg width="20" height="20" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6 H19 M3 11 H19 M3 16 H19" stroke="#232133" stroke-width="1.7" stroke-linecap="round"/></svg>
+      </button>
+    </div>
   </div>
 </header>
 
 <!-- MOBILE MENU -->
 <div class="mob-nav" id="mob-menu">
   <a href="index.html" class="active">Home</a>
-  <a href="index.html#about">About</a>
-  <a href="sap-ariba.html" class="ariba">SAP Ariba Consulting</a>
-  <a href="esg.html" class="esg">ESG Consulting</a>
-  <a href="index.html#engagement">Engagement Model</a>
-  <a href="contact.html">Contact</a>
+  <a href="sap-ariba/" class="ariba">SAP Ariba</a>
+  <a href="esg/" class="esg">ESG Consulting</a>
+  <a href="contact/">Contact</a>
 </div>
 
-<!-- HERO -->
-<section style="position:relative;overflow:hidden;scroll-margin-top:90px">
-  <div style="position:absolute;top:-24%;right:-12%;width:62vw;height:62vw;max-width:840px;max-height:840px;border-radius:50%;background:radial-gradient(circle at 38% 38%,rgba(35,168,182,0.20),rgba(94,96,201,0.16) 48%,rgba(245,246,248,0) 72%);filter:blur(6px);animation:heroGlow 18s ease-in-out infinite;pointer-events:none"></div>
-  <div class="wrap" style="padding-top:clamp(60px,9vh,108px);padding-bottom:clamp(8px,2vh,16px);position:relative">
-    <div data-reveal style="display:inline-flex;align-items:center;gap:10px;font-family:'Space Mono',monospace;font-size:0.74rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--ink2)">
-      <span style="width:22px;height:1px;background:var(--ink2)"></span>Dual-practice advisory firm
+<!-- HERO (dark) -->
+<section style="background:var(--ink);color:#fff;position:relative;overflow:hidden">
+  <div style="position:absolute;top:-24%;right:-12%;width:62vw;height:62vw;max-width:840px;max-height:840px;border-radius:50%;background:radial-gradient(circle at 38% 38%,rgba(35,168,182,0.22),rgba(94,96,201,0.18) 48%,transparent 72%);filter:blur(6px);animation:heroGlow 18s ease-in-out infinite;pointer-events:none"></div>
+  <div class="wrap" style="padding-top:clamp(60px,9vh,108px);padding-bottom:clamp(52px,7vh,80px);position:relative">
+    <div data-reveal style="display:inline-flex;align-items:center;gap:10px;font-family:'Space Mono',monospace;font-size:0.74rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:rgba(245,246,248,0.5)">
+      <span style="width:22px;height:1px;background:rgba(245,246,248,0.4)"></span>Independent, consultant led advisory
     </div>
-    <h1 data-reveal style="margin:22px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-0.028em;line-height:1.02;font-size:clamp(2.5rem,6.2vw,5rem);max-width:15ch">
-      <span style="color:var(--ariba)">SAP Ariba</span> consulting. <span style="color:var(--esg)">Corporate ESG</span> consulting. Two independent practices.
+    <h1 data-reveal style="margin:22px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-0.028em;line-height:1.05;font-size:clamp(2.5rem,6.2vw,5rem);max-width:16ch">
+      <span class="grad-text">Digital procurement</span>, done right.<br><span class="grad-text">Sustainability</span>, made real.
     </h1>
-    <p data-reveal style="margin:26px 0 0;font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--ink2);max-width:58ch;line-height:1.62">Saram Digitech is an independent, consultant-led firm with two specialist practices &mdash; SAP Ariba and Corporate ESG. Each is run by practitioners and engaged on its own terms: you work with the practice you need, without one being bundled into the other.</p>
-    <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap;margin-top:34px">
-      <a href="#divisions" class="btn-dark">Explore our divisions</a>
-      <a href="contact.html" class="btn-outline">Talk to an expert</a>
+    <p data-reveal style="margin:26px 0 0;font-size:clamp(1.05rem,1.6vw,1.2rem);color:rgba(245,246,248,0.7);max-width:60ch;line-height:1.66">Saram Digitech runs two specialist practices: SAP powered Source to Pay transformation, and corporate ESG, energy and carbon. We help procurement and finance leaders control spend and risk, and help sustainability teams turn compliance into verified, board ready data. Engage either practice on its own.</p>
+    <div data-reveal style="display:flex;gap:14px;flex-wrap:wrap;margin-top:36px">
+      <a href="sap-ariba/" class="btn-ariba">SAP Ariba practice &rarr;</a>
+      <a href="esg/" class="btn-esg">ESG practice &rarr;</a>
+      <a href="contact/" class="btn-ghost">Talk to us</a>
+    </div>
+    <div data-reveal style="display:flex;gap:32px;flex-wrap:wrap;margin-top:48px;padding-top:36px;border-top:1px solid rgba(255,255,255,0.1)">
+      <div><div style="font-family:'Space Mono',monospace;font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(245,246,248,0.4)">SAP Ariba</div><div style="margin-top:4px;font-size:0.95rem;color:rgba(245,246,248,0.75)">Source to Pay, end to end</div></div>
+      <div><div style="font-family:'Space Mono',monospace;font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(245,246,248,0.4)">ESG &amp; Carbon</div><div style="margin-top:4px;font-size:0.95rem;color:rgba(245,246,248,0.75)">BRSR &middot; CCTS &middot; CBAM &middot; CSRD</div></div>
+      <div><div style="font-family:'Space Mono',monospace;font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(245,246,248,0.4)">India + Europe</div><div style="margin-top:4px;font-size:0.95rem;color:rgba(245,246,248,0.75)">compliance that travels</div></div>
     </div>
   </div>
+</section>
 
-  <!-- DUAL PRACTICE CARDS -->
-  <div id="divisions" class="wrap" style="padding-top:8px;padding-bottom:clamp(56px,8vh,88px);scroll-margin-top:90px">
-    <div class="grid2" style="display:grid;grid-template-columns:1fr 1fr;gap:26px">
-      <a href="sap-ariba.html" data-reveal class="pcard ariba" style="text-decoration:none;color:var(--ink)">
+<!-- TWO PRACTICES -->
+<section class="section" style="background:var(--paper);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div data-reveal style="max-width:62ch">
+      <div class="eyebrow"><span class="line"></span>Two practices, one firm</div>
+      <h2 style="margin:18px 0 0;font-size:clamp(2rem,3.6vw,2.85rem)">Two specialist practices. Engaged on their own terms.</h2>
+      <p style="margin:16px 0 0;font-size:1.08rem;color:var(--ink2);line-height:1.66">We are an independent, consultant led firm. Each practice is run by practitioners and can be engaged on its own, so you work with the one you need without one being bundled into the other.</p>
+    </div>
+    <div data-reveal style="display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:36px" class="grid2">
+      <a href="sap-ariba/" class="pcard ariba" style="text-decoration:none;color:var(--ink)">
         <span class="top-strip"></span>
-        <span class="div-label">Division 01</span>
+        <span class="div-label">Practice 01 &middot; SAP Ariba</span>
         <h3>SAP Ariba Consulting</h3>
-        <p class="tagline">Essence to your Source-to-Pay transformation.</p>
-        <p>Source-to-Contract and Procure-to-Pay implementation, support, and independent commercial advisory.</p>
-        <div class="chips">
-          <span class="chip ariba">Source-to-Contract</span>
-          <span class="chip ariba">Procure-to-Pay</span>
+        <p class="tagline">Source to Pay, implemented by people who have run it.</p>
+        <p>Source to Contract and Procure to Pay implementation, support and independent commercial advisory across the full SAP Ariba suite. For CPOs and finance leaders: faster adoption, cleaner spend data and a platform that earns its keep.</p>
+        <div class="chips" style="margin-top:20px">
+          <span class="chip ariba">Source to Contract</span>
+          <span class="chip ariba">Procure to Pay</span>
           <span class="chip ariba">Support</span>
-          <span class="chip ariba">Advisory</span>
+          <span class="chip ariba">Commercial advisory</span>
         </div>
-        <span class="explore-link">Explore SAP Ariba
-          <svg width="18" height="14" viewBox="0 0 18 14" aria-hidden="true"><path d="M1 7 H16 M11 2 L16 7 L11 12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </span>
+        <span class="explore-link">Explore SAP Ariba &rarr;</span>
       </a>
-      <a href="esg.html" data-reveal class="pcard esg" style="text-decoration:none;color:var(--ink)">
+      <a href="esg/" class="pcard esg" style="text-decoration:none;color:var(--ink)">
         <span class="top-strip"></span>
-        <span class="div-label">Division 02</span>
+        <span class="div-label">Practice 02 &middot; Corporate ESG</span>
         <h3>ESG Consulting</h3>
-        <p class="tagline">Credible, measurable, audit-ready sustainability.</p>
-        <p>ESG strategy, energy audits, GHG accounting and product carbon footprints &mdash; aligned to BRSR, CCTS, CBAM, CSRD, ISO and the GHG Protocol.</p>
-        <div class="chips">
+        <p class="tagline">Credible, measurable, audit ready sustainability.</p>
+        <p>ESG strategy, energy audits, GHG accounting and product carbon footprints, aligned to BRSR, CCTS, CBAM, CSRD, ISO and the GHG Protocol. For sustainability and finance leaders: the verified data your board, your buyers and the regulator now expect.</p>
+        <div class="chips" style="margin-top:20px">
           <span class="chip esg">ESG Strategy</span>
           <span class="chip esg">Energy Audit</span>
-          <span class="chip esg">GHG Verification</span>
+          <span class="chip esg">GHG Accounting</span>
+          <span class="chip esg">Product Carbon Footprint</span>
           <span class="chip esg">BRSR</span>
         </div>
-        <span class="explore-link">Explore ESG Consulting
-          <svg width="18" height="14" viewBox="0 0 18 14" aria-hidden="true"><path d="M1 7 H16 M11 2 L16 7 L11 12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </span>
+        <span class="explore-link">Explore ESG Consulting &rarr;</span>
       </a>
     </div>
   </div>
 </section>
 
-<!-- BRIDGE (dark) -->
+<!-- HOW WE ENGAGE (dark) -->
 <section class="bridge">
   <div class="bridge-bg"></div>
   <div class="wrap" style="position:relative">
-    <div class="bridge-grid">
-      <div data-reveal>
-        <div class="eyebrow esg2"><span class="line"></span>What we deliver</div>
-        <h2 style="margin:18px 0 0;font-size:clamp(2rem,3.8vw,3rem);color:#fff">Sustainability compliance is now a <span class="grad-text">condition of doing business.</span></h2>
-        <p style="margin:20px 0 0;font-size:1.12rem;color:rgba(245,246,248,0.72);line-height:1.64">In India, BRSR and the Carbon Credit Trading Scheme; in Europe, CBAM, CSRD and buyer ESG audits &mdash; reporting and verified carbon data have moved from optional to mandatory. Our ESG practice gets you audit-ready: energy audits, GHG accounting, product carbon footprints and BRSR readiness, plus the in-house green-skills capability to sustain it.</p>
-      </div>
-      <div data-reveal style="display:flex;flex-direction:column;gap:14px">
-        <div class="bridge-point">
-          <span class="n">01</span>
-          <div><b>Scope 1&ndash;3 GHG Accounting</b><span>A full greenhouse-gas inventory on the GHG Protocol, including supply-chain (Scope 3) emissions.</span></div>
-        </div>
-        <div class="bridge-point">
-          <span class="n">02</span>
-          <div><b>Product Carbon Footprints (ISO 14067)</b><span>Per-product footprints for CBAM, buyer and net-zero tender requirements.</span></div>
-        </div>
-        <div class="bridge-point">
-          <span class="n">03</span>
-          <div><b>Supplier &amp; Value-Chain ESG Data</b><span>Collect supplier ESG and emissions data from your existing ERP or e-procurement tools.</span></div>
-        </div>
-        <div class="bridge-point">
-          <span class="n">04</span>
-          <div><b>Audit-Ready Disclosure</b><span>BRSR, CCTS and CSRD-aligned data prepared for independent verification.</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ENGAGEMENT MODEL -->
-<section id="engagement" class="section" style="background:var(--paper);border-top:1px solid var(--line);scroll-margin-top:76px">
-  <div class="wrap">
     <div data-reveal style="max-width:62ch">
-      <div class="eyebrow"><span class="line"></span>Engagement Model</div>
-      <h2 style="margin:18px 0 0;font-size:clamp(2.1rem,4vw,3.1rem)">The same rigour. <span class="grad-text">Either practice.</span></h2>
-      <p style="margin:20px 0 0;font-size:1.15rem;color:var(--ink2);line-height:1.64">Whether the work is a Source-to-Pay rollout or an ESG program, we move through the same three deliberate tiers &mdash; so every engagement starts with clarity and ends with delivered outcomes.</p>
+      <div class="eyebrow esg2"><span class="line"></span>How we engage</div>
+      <h2 style="margin:18px 0 0;font-size:clamp(2.1rem,4vw,3.1rem);color:#fff">A clear, three step engagement for either practice.</h2>
+      <p style="margin:20px 0 0;font-size:1.12rem;color:rgba(245,246,248,0.7);line-height:1.64">Whether the work is a Source to Pay rollout or an ESG programme, we move through the same three deliberate steps, so every engagement starts with clarity and ends with delivered, measurable outcomes.</p>
     </div>
-    <div data-reveal style="margin-top:50px">
+    <div data-reveal style="margin-top:48px">
       <div style="height:2px;background:linear-gradient(90deg,var(--esg2),var(--ariba2));border-radius:2px;margin-bottom:30px"></div>
       <div class="step-row">
         <div class="step">
           <span class="step-num">01</span>
-          <h3>Initial Assessment</h3>
-          <p class="sub">Where you stand</p>
-          <p>A focused scoping engagement that maps your exposure and readiness, and frames the work ahead.</p>
+          <h3 style="color:#fff;">Assess what applies</h3>
+          <p class="sub">Scope</p>
+          <p style="color:rgba(245,246,248,0.64)">A short, focused assessment to confirm exactly what applies to you and where you stand today. No boilerplate, no padding.</p>
         </div>
         <div class="step">
           <span class="step-num">02</span>
-          <h3>Baseline Audit</h3>
-          <p class="sub">What the gaps are</p>
-          <p>A deep diagnostic that establishes your baseline and pinpoints the gaps between today and compliant, optimised operations.</p>
+          <h3 style="color:#fff;">Implement, hands on</h3>
+          <p class="sub">Build</p>
+          <p style="color:rgba(245,246,248,0.64)">We build the systems, data and capability alongside your team, not a slide deck handed over from a distance.</p>
         </div>
         <div class="step">
           <span class="step-num">03</span>
-          <h3>Advisory Consulting</h3>
-          <p class="sub">How we get there</p>
-          <p>Ongoing implementation and guidance that turns the roadmap into delivered outcomes.</p>
+          <h3 style="color:#fff;">Ready for what&rsquo;s next</h3>
+          <p class="sub">Sustain</p>
+          <p style="color:rgba(245,246,248,0.64)">We prepare you for audits and verification, and hand over capability your team keeps and runs.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about" class="section" style="background:var(--paper);border-top:1px solid var(--line);scroll-margin-top:76px">
+<!-- ABOUT (tint) -->
+<section id="about" class="section" style="background:var(--paper2);border-top:1px solid var(--line);scroll-margin-top:76px">
   <div class="wrap">
     <div class="divhead">
       <div data-reveal>
-        <div class="eyebrow"><span class="line"></span>About Saram Digitech</div>
-        <h2 style="margin:18px 0 0;font-size:clamp(2rem,3.6vw,2.85rem)">Procurement experts. Sustainability partners.</h2>
-        <div style="display:flex;flex-direction:column;gap:12px;margin-top:28px">
-          <div style="display:flex;align-items:center;gap:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--ariba2)"></span><span style="font-weight:600">SAP-certified Ariba consultants</span></div>
-          <div style="display:flex;align-items:center;gap:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--esg2)"></span><span style="font-weight:600">Empanelled energy auditors</span></div>
-          <div style="display:flex;align-items:center;gap:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--esg)"></span><span style="font-weight:600">Accredited GHG verifiers</span></div>
+        <div class="eyebrow ariba"><span class="line"></span>About Saram Digitech</div>
+        <h2 style="margin:18px 0 0;font-size:clamp(1.7rem,3vw,2.4rem)">Procurement experts. Sustainability partners.</h2>
+        <p style="margin:16px 0 0;color:var(--ink2);font-size:1.06rem;line-height:1.66">Saram Digitech began as a specialist SAP Ariba consulting firm, in the belief that technology should be a guiding force, not just a tool. Today we run a second practice in corporate ESG, helping the same organisations become genuinely sustainable and compliant.</p>
+        <div class="chips" style="margin-top:20px">
+          <span class="chip">SAP certified Ariba consultants</span>
+          <span class="chip">Experienced energy auditors</span>
+          <span class="chip">ESG &amp; carbon specialists</span>
         </div>
       </div>
-      <div data-reveal style="padding-top:6px">
-        <p style="margin:0;font-size:1.1rem;color:var(--ink2);line-height:1.68">Saram Digitech began as a specialist SAP Ariba consulting firm, driven by the belief that technology should be a guiding force &mdash; not just a tool. Today we have expanded that mission to the defining challenge of our era: helping organisations become genuinely sustainable.</p>
-        <p style="margin:16px 0 0;font-size:1.1rem;color:var(--ink2);line-height:1.68">Our team unites SAP-certified Ariba consultants, empanelled energy auditors and accredited GHG verifiers under one practice. We do not just advise &mdash; we implement, verify, train, and sustain.</p>
-        <div class="quote-box" style="margin-top:26px">
-          <p>"Operational excellence and environmental responsibility must go hand in hand. We partner with organisations to digitise their procurement and decarbonise their operations."</p>
-          <p class="by">&mdash; Saram Digitech, Mission</p>
-        </div>
+      <div data-reveal>
+        <blockquote class="quote">&ldquo;Operational excellence and environmental responsibility must go hand in hand. We help organisations digitise their procurement and decarbonise their operations.&rdquo;</blockquote>
+        <p class="qby">Saram Digitech, our mission</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
-<section class="section-md" style="background:var(--paper2);border-top:1px solid var(--line)">
+<section class="section-md" style="background:var(--paper);border-top:1px solid var(--line)">
   <div class="wrap" style="text-align:center">
-    <div class="eyebrow" style="justify-content:center;margin-bottom:16px"><span class="line"></span>Ready to start?</div>
-    <h2 style="font-size:clamp(1.9rem,3.5vw,2.8rem)">Let&rsquo;s scope the work.</h2>
-    <p style="max-width:48ch;margin:14px auto 0;color:var(--ink2);font-size:1.08rem;line-height:1.64">Tell us which practice you&rsquo;re exploring and where you are today. We&rsquo;ll respond with a clear, no-obligation next step.</p>
-    <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:32px">
-      <a href="contact.html" class="btn-dark">Contact us</a>
-      <a href="sap-ariba.html" class="btn-outline">SAP Ariba</a>
-      <a href="esg.html" class="btn-outline">ESG Consulting</a>
+    <h2 style="font-size:clamp(1.8rem,3.4vw,2.6rem);max-width:20ch;margin:0 auto">Let&rsquo;s scope the work.</h2>
+    <p style="margin:16px auto 0;color:var(--ink2);max-width:52ch;font-size:1.08rem;line-height:1.64">Tell us which practice you&rsquo;re exploring and where you are today. We&rsquo;ll respond with a clear, no obligation next step.</p>
+    <div style="margin-top:28px">
+      <a href="contact/" class="btn-dark">Talk to us &rarr;</a>
     </div>
   </div>
 </section>
@@ -221,28 +185,27 @@
 <!-- FOOTER -->
 <footer class="site-footer">
   <div class="wrap">
-    <div class="foot-grid">
+    <div class="foot-grid" style="grid-template-columns:1.5fr 1fr 1fr 1fr">
       <div>
         <div class="logo"><img src="assets/logo.png" alt="Saram Digitech"></div>
-        <p>Independent, consultant-led advisory for SAP Ariba and Corporate ESG. Headquartered in India, serving global clients.</p>
+        <p>Independent, consultant led advisory for SAP Ariba and Corporate ESG. Headquartered in India, serving clients across India and Europe.</p>
       </div>
       <div class="ft-col">
-        <h5>Divisions</h5>
+        <h5>Practices</h5>
         <ul>
-          <li><a href="sap-ariba.html">SAP Ariba Consulting</a></li>
-          <li><a href="esg.html">ESG Consulting</a></li>
-          <li><a href="index.html#engagement">Engagement Model</a></li>
+          <li><a href="sap-ariba/">SAP Ariba Consulting</a></li>
+          <li><a href="esg/">ESG Consulting</a></li>
         </ul>
       </div>
       <div class="ft-col">
         <h5>Company</h5>
         <ul>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="esg.html#training">Training Academy</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact/">Contact</a></li>
         </ul>
       </div>
       <div class="ft-col">
-        <h5>Get in touch</h5>
+        <h5>Reach us</h5>
         <ul>
           <li><a href="tel:+919600126147">+91 96001 26147</a></li>
           <li><a href="mailto:info@saramdigitech.com">info@saramdigitech.com</a></li>
@@ -250,21 +213,19 @@
       </div>
     </div>
     <div class="ft-copy">
-      <span>&copy; 2025 Saram Digitech. All rights reserved.</span>
-      <span>India-facing advisory &middot; SAP Ariba &middot; Corporate ESG</span>
+      <span>&copy; 2026 Saram Digitech Private Limited. All rights reserved.</span>
+      <span>Two practices &middot; SAP Ariba &middot; Corporate ESG</span>
     </div>
   </div>
 </footer>
 
 <script>
-  // Mobile nav toggle
   const tog = document.getElementById('mob-tog');
   const menu = document.getElementById('mob-menu');
   tog.addEventListener('click', () => {
     const open = menu.style.display === 'flex';
     menu.style.display = open ? 'none' : 'flex';
   });
-  // Reveal on scroll
   (function () {
     const root = document.body;
     root.classList.add('reveal-on');
