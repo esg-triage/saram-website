@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Saram Digitech</title>
+  <meta name="description" content="Get in touch with Saram Digitech for SAP Ariba implementation or ESG consulting. We respond within one business day.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Inter:wght@400;500;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <div class="row">
+      <a href="index.html" class="brand">Saram<b>.</b>Digitech</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="sap-ariba.html">SAP Ariba</a>
+        <a href="esg.html">ESG Consulting</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="navtoggle" id="tog" aria-label="Menu">&#9776;</button>
+    </div>
+    <div id="mnav">
+      <a href="index.html">Home</a>
+      <a href="sap-ariba.html">SAP Ariba</a>
+      <a href="esg.html">ESG Consulting</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow"><span></span>Get in touch</p>
+    <h1>Let&rsquo;s talk about<br><span class="grad">your project</span></h1>
+    <p class="sub">Whether you&rsquo;re evaluating SAP Ariba, building an ESG program, or just exploring options &mdash; send us a message and we&rsquo;ll come back within one business day.</p>
+  </div>
+</section>
+
+<!-- Contact content -->
+<section class="pad">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <!-- Contact details -->
+      <div>
+        <p class="eyebrow"><span></span>Direct contact</p>
+        <h2 style="margin-top:10px;">Reach us directly</h2>
+        <p style="margin-top:10px;">We are a small, focused team. When you reach out, you will speak with a senior consultant, not a sales coordinator.</p>
+
+        <div class="contactbox">
+          <div>
+            <b>Phone</b>
+            <a href="tel:+919600126147">+91 96001 26147</a>
+          </div>
+          <div>
+            <b>Email</b>
+            <a href="mailto:info@saramdigitech.com">info@saramdigitech.com</a>
+          </div>
+          <div>
+            <b>Response time</b>
+            <span style="font-size:1.04rem;color:var(--ink);font-weight:500;">Within 1 business day</span>
+          </div>
+        </div>
+
+        <!-- Practice quick links -->
+        <div style="margin-top:36px;border-top:1px solid var(--line);padding-top:28px;">
+          <p style="font-size:0.85rem;font-weight:600;color:var(--ink2);text-transform:uppercase;letter-spacing:.07em;font-family:'Space Mono',monospace;margin-bottom:14px;">Our practices</p>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <a href="sap-ariba.html" style="display:flex;align-items:center;gap:12px;text-decoration:none;padding:14px 16px;border-radius:12px;border:1.5px solid rgba(63,61,158,0.2);background:rgba(63,61,158,0.04);transition:box-shadow .2s;">
+              <span style="width:6px;height:36px;border-radius:3px;background:linear-gradient(180deg,var(--ariba),var(--ariba2));flex:none;"></span>
+              <div>
+                <div style="font-weight:700;font-size:0.95rem;color:var(--ariba);">SAP Ariba</div>
+                <div style="font-size:0.85rem;color:var(--ink2);">Implementation, Support &amp; Advisory</div>
+              </div>
+            </a>
+            <a href="esg.html" style="display:flex;align-items:center;gap:12px;text-decoration:none;padding:14px 16px;border-radius:12px;border:1.5px solid rgba(15,138,147,0.2);background:rgba(15,138,147,0.04);transition:box-shadow .2s;">
+              <span style="width:6px;height:36px;border-radius:3px;background:linear-gradient(180deg,var(--esg),var(--esg2));flex:none;"></span>
+              <div>
+                <div style="font-weight:700;font-size:0.95rem;color:var(--esg);">ESG Consulting</div>
+                <div style="font-size:0.85rem;color:var(--ink2);">GHG Accounting, PCF &amp; Reporting</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div>
+        <p class="eyebrow"><span></span>Send a message</p>
+        <h2 style="margin-top:10px;margin-bottom:20px;">Tell us about your project</h2>
+
+        <div id="cfsuccess" class="form-success">
+          <p>Message sent!</p>
+          <p style="margin-top:6px;color:var(--ink2);">Thank you for reaching out. We will be in touch within one business day.</p>
+        </div>
+
+        <form class="form" id="cf" novalidate>
+          <div class="grid2">
+            <label>
+              Name *
+              <input type="text" name="name" placeholder="Your full name" required>
+            </label>
+            <label>
+              Company
+              <input type="text" name="company" placeholder="Organisation name">
+            </label>
+          </div>
+          <label>
+            Email address *
+            <input type="email" name="email" placeholder="you@company.com" required>
+          </label>
+          <label>
+            Practice area *
+            <select name="practice" required>
+              <option value="" disabled selected>Select a practice&hellip;</option>
+              <option value="SAP Ariba">SAP Ariba</option>
+              <option value="ESG Consulting">ESG Consulting</option>
+              <option value="Both">Both SAP Ariba &amp; ESG</option>
+              <option value="Other">Other / Not sure</option>
+            </select>
+          </label>
+          <label>
+            Message *
+            <textarea name="message" placeholder="Briefly describe your project or question&hellip;" required></textarea>
+          </label>
+          <p class="form-error" id="cferr"></p>
+          <button type="submit" class="btn primary" style="align-self:flex-start;">Send message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <a href="index.html" class="brand">Saram<b>.</b>Digitech</a>
+        <p>End-to-end SAP Ariba implementation and ESG consulting for enterprises navigating procurement transformation and sustainability compliance.</p>
+      </div>
+      <nav>
+        <div>
+          <b>Services</b>
+          <a href="sap-ariba.html">SAP Ariba</a>
+          <a href="esg.html">ESG Consulting</a>
+        </div>
+        <div>
+          <b>Company</b>
+          <a href="index.html#about">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+    <div class="copy">
+      <span>&copy; 2025 Saram Digitech. All rights reserved.</span>
+      <span>info@saramdigitech.com</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const tog = document.getElementById('tog');
+  const mn  = document.getElementById('mnav');
+  tog.addEventListener('click', () => {
+    const open = mn.style.display === 'flex';
+    mn.style.display = open ? 'none' : 'flex';
+    tog.innerHTML = open ? '&#9776;' : '&#10005;';
+  });
+
+  document.getElementById('cf').addEventListener('submit', async function (e) {
+    e.preventDefault();
+    const btn = this.querySelector('button[type=submit]');
+    const err = document.getElementById('cferr');
+    err.style.display = 'none';
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+
+    const data = new FormData(this);
+    try {
+      const r = await fetch('https://saramdigitech.com/contact.php', {
+        method: 'POST',
+        body: data
+      });
+      const j = await r.json();
+      if (j.ok) {
+        document.getElementById('cfsuccess').style.display = 'block';
+        this.style.display = 'none';
+      } else {
+        throw new Error(j.error || 'Unknown error');
+      }
+    } catch (ex) {
+      err.textContent = 'Something went wrong. Please email us directly at info@saramdigitech.com';
+      err.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Send message';
+    }
+  });
+</script>
+</body>
+</html>
